@@ -6,7 +6,7 @@ Created on Sun Feb 17 00:47:34 2019
 @author: a
 """
 
-def sample(file_path, input_file_path, fraction = 0.1):
+def sample(file_path, input_file_path, fraction = 0.05):
     
     import random 
 
@@ -22,4 +22,4 @@ def sample(file_path, input_file_path, fraction = 0.1):
             file.write('%s' % line) 
 
 if __name__ == '__main__':
-    sample(file_path= '../input/itcont.txt',input_file_path='../insight_testsuite/tests/my-own-test_1/input/itcont.txt')
+    sample(file_path= '../../../input/itcont.txt',input_file_path='input/itcont.txt')
