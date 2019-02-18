@@ -60,7 +60,7 @@ def top_cost_drug(input_file_path='input/itcont.txt', output_file_path ='output/
                 cost.append(float(dictionary['drug_cost'][index]))
                 
         num_prescriber.append(len(list(set(prescriber))))    
-        total_cost.append(round(sum(cost),2))
+        total_cost.append(round(sum(cost)))
     
     #combine and sort the 3 lists by total cost, highest first 
     output = sorted(zip(drug_name, num_prescriber, total_cost),  key = lambda x:x[2], reverse=True) 
