@@ -1,4 +1,3 @@
-# pharmacy_counting-master
 
 # Table of Contents
 1. [Problem](README.md#problem)
