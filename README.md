@@ -15,7 +15,7 @@ Imagine you are a data engineer working for an online pharmacy. You are asked to
 
 The original dataset was obtained from the Centers for Medicare & Medicaid Services. It has been cleaned and simplified to match the scope of this coding challenge and is available <a href="https://drive.google.com/file/d/1fxtTLR_Z5fTO-Y91BnKOQd6J0VC9gPO3/view?usp=sharing">here</a>. It provides information on prescription drugs prescribed by individual physicians and other health care providers. The dataset identifies prescribers by their ID, last name, and first name.  It also describes the specific prescriptions that were dispensed at their direction, listed by drug name and the cost of the medication. 
 
-A 5% random sample of the full dataset was pulled into the input repo directory to test the code using the `sample-test-input.py` script, which can be found in the `/src` directory 
+A 1% random sample of the full dataset was pulled into the input repo directory to test the code using the `sample-test-input.py` script, which can be found in the `/src` directory 
  
 ## Solution 
 
@@ -35,7 +35,7 @@ drug_name,num_prescriber,total_cost
 ## Final Comments 
 
 1. In my test directories `insight_testsuite/tests/my-own-test_1` and `insight_testsuite/tests/my-own-test_2`, executing `run.sh`:  
-* First runs the `sample-test-input.py` script - pulling a 5% random sample from the main input file in the `input` directory   
+* First runs the `sample-test-input.py` script - pulling a 10% random sample from the main input file in the `input` directory   
 * Then runs the `pharmacy-counting.py` script - processing the newly sampled data 
 
 2. This repo structure **has been forked** from `InsightDataScience/pharmacy_counting` repo in order to pass the <a href="http://ec2-18-210-131-67.compute-1.amazonaws.com/test-my-repo-link">repo directory structure test</a> provided
