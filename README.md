@@ -17,7 +17,7 @@ The original dataset was obtained from the Centers for Medicare & Medicaid Servi
 
 The full input file is available <a href="https://drive.google.com/file/d/1fxtTLR_Z5fTO-Y91BnKOQd6J0VC9gPO3/view?usp=sharing">Here</a> 
 
-Due to file size limitations, a 5% random sample of the full dataset was pulled into the input repo directory to test the code using the `sample-test-input.py` script, which can be found in the `/src` directory. 
+Due to file size limitations, a 5% random sample of the full dataset was pulled into the input repo directory to test the code using the `sample-test-input.py` script, which can be found in the `/src` directory 
  
 ## Solution 
 
@@ -30,7 +30,9 @@ Due to file size limitations, a 5% random sample of the full dataset was pulled 
 
 ## Output 
 
-The output file, `top_cost_drug.txt`, that contains comma (`,`) separated fields in each line as follows: drug_name,num_prescriber,total_cost
+The output file, `top_cost_drug.txt`, contains comma separated fields in each line as follows: 
+
+drug_name,num_prescriber,total_cost
 
 ## Final Comments 
 
