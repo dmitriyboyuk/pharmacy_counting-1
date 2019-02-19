@@ -6,7 +6,7 @@ Created on Sun Feb 17 00:47:34 2019
 @author: a
 """
 
-def sample(file_path, input_file_path, fraction = 0.05):
+def sample(file_path, input_file_path, fraction = 0.10):
     
     import random 
 
