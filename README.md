@@ -13,11 +13,9 @@ Imagine you are a data engineer working for an online pharmacy. You are asked to
 
 ## Input
 
-The original dataset was obtained from the Centers for Medicare & Medicaid Services but has been cleaned and simplified to match the scope of the coding challenge. It provides information on prescription drugs prescribed by individual physicians and other health care providers. The dataset identifies prescribers by their ID, last name, and first name.  It also describes the specific prescriptions that were dispensed at their direction, listed by drug name and the cost of the medication. 
+The original dataset was obtained from the Centers for Medicare & Medicaid Services. It has been cleaned and simplified to match the scope of this coding challenge and is available <a href="https://drive.google.com/file/d/1fxtTLR_Z5fTO-Y91BnKOQd6J0VC9gPO3/view?usp=sharing">here</a>. It provides information on prescription drugs prescribed by individual physicians and other health care providers. The dataset identifies prescribers by their ID, last name, and first name.  It also describes the specific prescriptions that were dispensed at their direction, listed by drug name and the cost of the medication. 
 
-The full input file is available <a href="https://drive.google.com/file/d/1fxtTLR_Z5fTO-Y91BnKOQd6J0VC9gPO3/view?usp=sharing">Here</a> 
-
-Due to file size limitations, a 5% random sample of the full dataset was pulled into the input repo directory to test the code using the `sample-test-input.py` script, which can be found in the `/src` directory 
+A 5% random sample of the full dataset was pulled into the input repo directory to test the code using the `sample-test-input.py` script, which can be found in the `/src` directory 
  
 ## Solution 
 
