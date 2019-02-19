@@ -38,9 +38,9 @@ The output file, `top_cost_drug.txt`, that contains comma (`,`) separated fields
 * First runs the `sample-test-input.py` script - pulling a 5% random sample from the main input file in the `input` directory   
 * Then runs the `pharmacy-counting.py` script - processing the newly sampled data 
 
-2. This repo structure **has been forked** from `InsightDataScience/pharmacy_counting` repo in order to pass the <a href="http://ec2-18-210-131-67.compute-1.amazonaws.com/test-my-repo-link">website</a> repo directory structure test  
+2. This repo structure **has been forked** from `InsightDataScience/pharmacy_counting` repo in order to pass the <a href="http://ec2-18-210-131-67.compute-1.amazonaws.com/test-my-repo-link">repo directory structure test</a> provided
 
-My own cloned repo directory structure <a href="https://github.com/dmitriyboyuk/pharmacy_counting-master">website</a> does not pass this test. This identical **non-forked** repo has also been shared with `insight-cc-bot` 
+My own cloned repo directory structure <"https://github.com/dmitriyboyuk/pharmacy_counting-master"> does not pass this test. This identical **non-forked** repo has also been shared with `insight-cc-bot` 
 
 3. Thank very much for your time and consideration
 
