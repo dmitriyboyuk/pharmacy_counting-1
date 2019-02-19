@@ -42,5 +42,5 @@ The output file, `top_cost_drug.txt`, that contains comma (`,`) separated fields
 
 My own cloned repo directory structure https://github.com/dmitriyboyuk/pharmacy_counting-master does not pass this test. This identical **non-forked** repo has also been shared with `insight-cc-bot` 
 
-**Thank for your time and consideration
+**Thank you for your time and consideration**
 
