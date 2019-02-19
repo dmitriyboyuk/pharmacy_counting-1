@@ -39,7 +39,7 @@ def pharmacy_dictionary(input_file_path='input/itcont.txt'):
         items = line.split(',')
       
         # dict with key=drug_name and value=[list of drug_cost]
-        prescr_dictionary[items[3]].append('_'.join(items[2:3])) 
+        prescr_dictionary[items[3]].append('_'.join(items[1:3])) 
         
         # dict with key=drug_name and value=[list of prescribers]
         cost_dictionary[items[3]].append(float(items[4]))  
