@@ -1,4 +1,4 @@
-# Pharmacy Counting Challange 
+# Pharmacy Counting Challenge 
 
 ## Table of Contents
 1. [Problem](README.md#problem)
@@ -17,7 +17,7 @@ The original dataset was obtained from the Centers for Medicare & Medicaid Servi
 
 The full input file is available <a href="https://drive.google.com/file/d/1fxtTLR_Z5fTO-Y91BnKOQd6J0VC9gPO3/view?usp=sharing">Here</a> 
 
-Note, a 1% random sample of the full dataset was pulled into the input directory to test the code.
+Due to file size limitations, a 5% random sample of the full dataset was pulled into the input repo directory to test the code using the `sample-test-input.py` script, which can be found in the `/src` directory. 
  
 ## Solution 
 
@@ -34,6 +34,13 @@ The output file, `top_cost_drug.txt`, that contains comma (`,`) separated fields
 
 ## Final Comments 
 
-The random sample input test dataset in the `insight_testsuite/tests/my-own-test_1/input` test directory was created using the `sample-test-input.py` script which can found in the `insight_testsuite/tests/my-own-test_1/src` directory
+1. In my test directories `insight_testsuite/tests/my-own-test_1` and `insight_testsuite/tests/my-own-test_2`, executing `run.sh`:  
+* First runs the `sample-test-input.py` script - pulling a 5% random sample from the main input file in the `input` directory   
+* Then runs the `pharmacy-counting.py` script - processing the newly sampled data 
 
-In my-own-test directories, executing run.sh first pulls a random sample of 5 % of entries or lines from the input file in the main input directory, and then executes the `pharmacy-counting.py` script
+2. This repo structure **has been forked** from `InsightDataScience/pharmacy_counting` repo in order to pass the <a href="http://ec2-18-210-131-67.compute-1.amazonaws.com/test-my-repo-link">website</a> repo directory structure test  
+
+My own cloned repo directory structure <a href="https://github.com/dmitriyboyuk/pharmacy_counting-master">website</a> does not pass this test. This identical **non-forked** repo has also been shared with `insight-cc-bot` 
+
+3. Thank very much for your time and consideration
+
