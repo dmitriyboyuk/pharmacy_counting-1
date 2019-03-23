@@ -40,7 +40,6 @@ drug_name,num_prescriber,total_cost
 
 2. This repo structure **has been forked** from `InsightDataScience/pharmacy_counting` repo in order to pass the <a href="http://ec2-18-210-131-67.compute-1.amazonaws.com/test-my-repo-link">repo directory structure test</a> provided
 
-My own cloned repo directory structure https://github.com/dmitriyboyuk/pharmacy_counting-master does not pass this test. This identical **non-forked** repo has also been shared with `insight-cc-bot` 
 
 **Thank you for your time and consideration**
 
